@@ -4,4 +4,4 @@ Support at https://forum.kodi.tv/showthread.php?tid=130566<br><br>
 Dknlght Github: https://github.com/dknlght<br>
 Price Adds-on: https://www.dropbox.com/sh/s5pc51irk4qh1o0/AADRNEfbIJ8biY6HcOyjobH-a?dl=0&lst=
 <br><br>
-Special thanks to all the uploaders from various sites.  Without them, there would be no Khmer dubbed for all of us watch. <br>Please go to their site(s) and support them.
+Special thanks to all the uploaders and site admins from various sites.  Without them, there would be no Khmer dubbed for all of us watch. <br>Please go to their site(s) and support them.
