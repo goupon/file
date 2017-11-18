@@ -39,7 +39,7 @@
   </extension>
 </addon>	
 
-<addon id="plugin.program.goupon" name="Goupon Wizard" version="1.0.1" provider-name="Goupon">
+<addon id="plugin.program.goupon" name="Goupon Addons" version="1.0.2" provider-name="Goupon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -47,8 +47,8 @@
         <provides>program executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Goupon Wizard, https://github.com/goupon/</summary>
-    <description lang="en">More info at https://kodi.tv/</description>
+    <summary lang="en">Goupon Github, https://github.com/goupon/</summary>
+    <description lang="en">Support at https://forum.kodi.tv/showthread.php?tid=130566&pid=2655857#pid2655857</description>
     <disclaimer lang="en">Use at your own risk</disclaimer>
     <platform>all</platform>
   </extension>
