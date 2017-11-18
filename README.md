@@ -1,3 +1,5 @@
+APK 17.6 Modded, https://www.dropbox.com/s/b5y1mggafxm9upg/GouponKodi-17.6.apk?dl=0
+
 Merge Dknlght and Price adds-on to one mega Khmer dubbed. <br><br>
 Support at https://forum.kodi.tv/showthread.php?tid=130566<br><br>
 <b>Credit to orginal Dev:</B><br>
