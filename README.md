@@ -1,5 +1,4 @@
-<b>
-Put playercorefactory.xml in userdata folder for other video to work.</b>
+Put <b>playercorefactory.xml</b> in <b>userdata</b> folder for other video to work.
 <br><br>
 Merge Dknlght and Price adds-on to one mega Khmer dubbed. <br><br>
 Support at https://forum.kodi.tv/showthread.php?tid=130566<br><br>
