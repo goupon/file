@@ -1,0 +1,195 @@
+<!--
+	Credits
+	KemoNine (xbmcandroid.com/forums)
+	Staticadk (xbmcandroid.com/forums)
+	GSH (xbmcandroid.com/forums)
+-->
+
+<playercorefactory>
+	<players>
+		<!-- MXPlayer Free definition -->
+		<player name="MXPlayerFree" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.mxtech.videoplayer.ad</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- MXPlayer Pro definition -->
+		<player name="MXPlayerPro" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.mxtech.videoplayer.pro</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- TPlayer definition -->
+		<player name="TPlayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.tiantian.android.player.app</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- DicePlayer Free definition -->
+		<player name="DicePlayerFree" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.inisoft.mediaplayer.trial</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- VLC Player definition -->
+		<player name="VLCPlayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.vlcforandroid.vlcdirectprofree</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- DicePlayer Paid definition -->
+		<player name="DicePlayerPaid" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.inisoft.mediaplayer.a</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- RockPlayer Lite definition -->
+		<player name="RockPlayerLite" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.redirectin.rockplayer.android.unified.lite</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- RockPlayer2 definition -->
+		<player name="RockPlayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.rockplayer</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- BSPlayer Free definition -->
+		<player name="BSPlayerFree" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.bsplayer.bspandroid.free</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- Moboplayer Free definition -->
+		<player name="MoboplayerFree" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.clov4r.android.nilz</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- mVideoplayer Free definition -->
+		<player name="mVideoplayerFree" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>afzkl.development.mVideoPlayer</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>		
+
+		<!-- Vplayer definition -->
+		<player name="Vplayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>me.abitno.vplayer.t</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+
+		<!-- Wondershare Player definition -->
+		<player name="WondersharePlayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.wondershare.player</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+	    </player>
+
+     	 <!-- Archos Video definition -->
+		<player name="ArchosVideo" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.archos.mediacenter.video</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+	    </player>
+
+	    <!-- SopCast Player definition -->
+		<player name="SopCast" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>org.sopcast.android</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+	    </player>
+
+		<!-- Daroon Player definition -->
+		<player name="DaroonPlayer" type="ExternalPlayer" audio="false" video="true">
+			<!-- Android intent -->
+			<filename>com.daroonplayer.dsplayer</filename>
+			<!-- Hide XBMC -->
+			<hidexbmc>true</hidexbmc>
+			<!-- After 2 minutes bump the play count of the item in XBMC -->
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+	</players>
+	<!-- Rules for which external player to use -->
+	<!-- MX Player Free is default
+	         change player= value to one of the above names to change this -->
+	<rules action="prepend">
+		<!-- Samba file shares -- Internal player for now due to MX Player issues -->
+		<rule protocols="smb" player="DVDPlayer" />
+
+		<!-- DVD Images -->
+		<rule dvdimage="true" player="MXPlayerFree"/>
+		
+		<!-- rtmp Streams (Ice / Navi-x) -->
+		<rule protocols="rtmp" player="MXPlayerFree"/>
+		
+		<!-- rtsp Streams (Type of internet stream) -->
+		<rule protocols="rtsp" player="MXPlayerFree" />
+		
+		<!-- SopCast -->
+        <rule protocols="sop" player="SopCast" />
+		
+		<!-- Internet streams -- Disabled for now -->
+		<!--<rule internetstream="true" player="MXPlayerFree" />-->
+
+		<!-- Video files -- Default rule (last to ensure above trigger first -->
+		<rule video="true" player="MXPlayerFree"/>
+	</rules>
+</playercorefactory>
