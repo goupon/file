@@ -6,5 +6,6 @@ Price Adds-on: https://www.dropbox.com/sh/s5pc51irk4qh1o0/AADRNEfbIJ8biY6HcOyjob
 Special thanks to dodgex from Kodi for providing code
 <br><br>
 Special thanks to all the uploaders and admins from various sites.  Without them, there would be no Khmer dubbed for all of us.  Please go to their site(s) and support them.
-<br><br><color=red>
+<br><br>
+<color="red">
 Put playercorefactory.xml in userdata folder for other video to work.</color>
