@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.MegaKhmerDubbed" version="1.3.2" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.khmerdubbed" version="2.00"/>	
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.urlresolver"  version="0.0.1"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>	
+        <import addon="plugin.video.vimeo"/>
+        <import addon="plugin.video.youtube" version="5.4.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="ADDON.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Collections of Khmer Dubbed from various site</summary>
+    <description>Use at your own risk</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
+<addon id="plugin.video.camtv" name="Cambodia TV" version="1.0.4" provider-name="Dknlght, Dodgex, Goupon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.khmerdubbed" version="2.00"/>	
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cambodia Live TV</summary>
+    <description lang="en">Cambodia Live TV</description>
+    <disclaimer lang="en"></disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+  </extension>
+</addon>	
+
+<addon id="plugin.program.goupon" name="Goupon Addons" version="1.0.4" provider-name="Goupon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.khmerdubbed" version="2.00"/>	
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Goupon Github, https://github.com/goupon/</summary>
+    <description lang="en">Support at https://forum.kodi.tv/</description>
+    <disclaimer lang="en">Use at your own risk</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
+<addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.00" provider-name="goupon">
+	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
+		<info compressed="false">http://raw.githubusercontent.com/goupon/file/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/goupon/file/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The best Khmer Dubbed addons by Dknlght and Price.  Updated by goupon</summary>
+		<description>https://forum.kodi.tv/showthread.php?tid=130566</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+</addons>
