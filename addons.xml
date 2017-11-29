@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MegaKhmerDubbed" version="1.3.1" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+<addon id="plugin.video.MegaKhmerDubbed" version="1.3.2" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.khmerdubbed" version="2.00"/>	
         <import addon="script.module.simplejson" />
         <import addon="script.module.beautifulsoup" version="3.0.8"/>
         <import addon="script.module.urlresolver"  version="0.0.1"/>
@@ -20,9 +21,10 @@
   </extension>
 </addon>
 	
-<addon id="plugin.video.camtv" name="Cambodia TV" version="1.0.3" provider-name="Dknlght, Dodgex, Goupon">
+<addon id="plugin.video.camtv" name="Cambodia TV" version="1.0.4" provider-name="Dknlght, Dodgex, Goupon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.khmerdubbed" version="2.00"/>	
     <import addon="script.module.simplejson" />
     <import addon="script.module.t0mm0.common" version="1.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.0.8"/>
@@ -39,9 +41,10 @@
   </extension>
 </addon>	
 
-<addon id="plugin.program.goupon" name="Goupon Addons" version="1.0.3" provider-name="Goupon">
+<addon id="plugin.program.goupon" name="Goupon Addons" version="1.0.4" provider-name="Goupon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.khmerdubbed" version="2.00"/>	
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>program executable</provides>
