@@ -3,7 +3,7 @@
 <addon id="plugin.video.MegaKhmerDubbed" version="1.3.2" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="repository.khmerdubbed" version="2.01"/>	
+        <import addon="repository.khmerdubbed" />	
         <import addon="script.module.simplejson" />
         <import addon="script.module.beautifulsoup" version="3.0.8"/>
         <import addon="script.module.urlresolver"  version="0.0.1"/>
@@ -64,7 +64,7 @@
 	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
 		<info compressed="false">http://raw.githubusercontent.com/goupon/file/master/addons.xml</info>
 		<checksum>http://raw.githubusercontent.com/goupon/file/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/</datadir>
+		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The best Khmer Dubbed addons by Dknlght and Price.  Updated by goupon</summary>
