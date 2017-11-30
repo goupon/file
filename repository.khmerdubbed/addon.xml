@@ -6,7 +6,7 @@
 	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
 		<info compressed="false">http://raw.githubusercontent.com/goupon/file/master/addons.xml</info>
 		<checksum>http://raw.githubusercontent.com/goupon/file/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/</datadir>
+		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The best Khmer Dubbed addons by Dknlght and Price.  Updated by goupon</summary>
