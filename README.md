@@ -1,5 +1,7 @@
 Put <b>playercorefactory.xml</b> in <b>userdata</b> folder for other video to work.
 <br><br>
+For Khmer font, unzip and put fonts folder inside Media folder
+<br><br>
 Merge Dknlght and Price adds-on to one mega Khmer dubbed. <br><br>
 Support at https://forum.kodi.tv/showthread.php?tid=130566<br><br>
 <b>Credit to orginal Dev:</B><br>
