@@ -20,16 +20,11 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.khmertvhd"
-  version="0.0.1"
-  name="KhmerTV HD"
-  provider-name="Dodge">
+<addon id="plugin.video.khmertvhd" version="0.0.2" name="KhmerTV HD" provider-name="Dodge">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="ADDON.py">
+  <extension point="xbmc.python.pluginsource" library="ADDON.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
