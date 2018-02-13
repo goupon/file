@@ -1,3 +1,4 @@
+Repo Addon: https://dodge.000webhostapp.com/zips/<br><br>
 Put <b>playercorefactory.xml</b> in <b>userdata</b> folder for other video to work.
 <br><br>
 For Khmer font, unzip and put fonts folder inside Media folder
