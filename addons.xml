@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MegaKhmerDubbed" version="1.5.1" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+<addon id="plugin.video.MegaKhmerDubbed" version="1.5.2" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
-        <import addon="xbmc.python" version="2.1.0"/>	
+        <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" />
         <import addon="script.module.beautifulsoup" version="3.0.8"/>
         <import addon="script.module.urlresolver"  version="0.0.1"/>
-        <import addon="script.module.t0mm0.common" version="1.1.0"/>	
-        <import addon="plugin.video.vimeo"/>
-        <import addon="plugin.video.youtube" version="5.4.5"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="plugin.video.youtube"/>
+        <import addon="plugin.video.vimeo"/>      
+        <import addon="plugin.video.dailymotion_com"/>	
   </requires>
   <extension point="xbmc.python.pluginsource" library="ADDON.py">
         <provides>video</provides>
