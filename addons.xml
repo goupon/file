@@ -40,42 +40,8 @@
     <description>Use at your own risk</description>
     <platform>all</platform>
   </extension>
-</addon>	
-	
-<addon id="plugin.video.camtv" name="Cambodia TV" version="1.0.5" provider-name="Dknlght, Dodgex, Goupon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>             
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.t0mm0.common" version="1.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Cambodia Live TV</summary>
-    <description lang="en">Cambodia Live TV</description>
-    <disclaimer lang="en"></disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-  </extension>
-</addon>	
+</addon>		
 
-<addon id="plugin.program.goupon" name="Goupon Addons" version="1.0.5" provider-name="Goupon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>  
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Goupon Github, https://github.com/goupon/</summary>
-    <description lang="en">Support at https://forum.kodi.tv/</description>
-    <disclaimer lang="en">Use at your own risk</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-	
 <addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.02" provider-name="goupon">
 	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
 		<info compressed="false">http://raw.githubusercontent.com/goupon/file/master/addons.xml</info>
