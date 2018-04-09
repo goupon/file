@@ -1,5 +1,0 @@
-name="Click2Install - Goupon"
-url="https://www.dropbox.com/s/72gjibuuoh6deaa/build.zip?dl=1"
-img="https://raw.githubusercontent.com/goupon/file/master/logo/icon.png"
-fanart="https://raw.githubusercontent.com/goupon/file/master/logo/fanart.jpg"
-description="Goupon's build conatining repo and various Khmer dubbed sites."
