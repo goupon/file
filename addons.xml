@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MegaKhmerDubbed" version="1.6.9" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+<addon id="plugin.video.MegaKhmerDubbed" version="1.7.0" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" />
@@ -21,7 +21,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Khmertvhd" version="1.0.1" name="KhmerTV HD" provider-name="Dodge, Goupon">
+<addon id="plugin.video.Khmertvhd" version="1.0.2" name="KhmerTV HD" provider-name="Dodge, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" />
