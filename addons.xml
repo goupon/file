@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MegaKhmerDubbed" version="1.7.7" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+<addon id="plugin.video.MegaKhmerDubbed" version="1.7.8" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" />
