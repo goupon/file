@@ -71,6 +71,25 @@
   </extension>
 </addon>	
 	
+<addon
+  id="plugin.video.laostv"
+  version="0.0.1"
+  name="LaosTV"
+  provider-name="Dodge">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="ADDON.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Laos TV</summary>
+    <description>Watch Video in Laos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
 	
 <addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.02" provider-name="goupon">
 	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
