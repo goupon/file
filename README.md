@@ -11,4 +11,8 @@ Dknlght Github: https://github.com/dknlght<br>
 Price Adds-on: https://www.dropbox.com/sh/s5pc51irk4qh1o0/AADRNEfbIJ8biY6HcOyjobH-a?dl=0&lst=<br>
 Special thanks to Dodgex for coding
 <br><br>
-Special thanks to all the uploaders and admins from various sites.  Without them, there would be no Khmer dubbed for all of us.  Please go to their site(s) and support them.
+Special thanks to all the uploaders and admins from various sites.  Without them, there would be no Khmer dubbed for all of us.  Please go to their site(s) and support them.<br><br>
+<B>COMING SOON:</B><br>
+You will have an option to download movies from MegaKhmer to hard drive but you will need to manually add a folder first.<br>
+Go to File Manager --> Add Source --> Brower to where you want to save --> give a name "khmerdl" w/out qutoaton.  
+note: case sensitive  --- folder must be named khmerdl
