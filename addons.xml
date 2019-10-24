@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.MegaKhmerDubbed" version="2.0.3" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
+<addon id="plugin.video.MegaKhmerDubbed" version="2.0.4" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" />
@@ -8,7 +8,9 @@
         <import addon="script.module.resolveurl" />
         <import addon="script.module.t0mm0.common" version="1.1.0"/>
         <import addon="plugin.video.youtube"/>
-        <import addon="plugin.video.khmerdl" version="0.0.1"/>			
+        <import addon="plugin.video.khmerdl" version="0.0.1"/>	
+        <import addon="service.liveproxy" version="0.1.1"/>	
+		
   </requires>
   <extension point="xbmc.python.pluginsource" library="ADDON.py">
         <provides>video</provides>
@@ -141,5 +143,239 @@
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
 </addon>
+	
+<addon id="service.liveproxy" name="LiveProxy" version="0.1.1" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.streamlink" version="0.14.2.138"/>
+    <import addon="script.module.back-to-plugins" version="2018.7.18" optional="true"/>
+    <import addon="script.module.streamlink-plugins" version="0.0.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.service" library="resources/lib/service.py" start="[login|startup]" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>LiveProxy</summary>
+    <description>LiveProxy for Kodi</description>
+    <platform>all</platform>
+    <license>BSD 2-Clause Simplified License</license>
+    <source>https://github.com/back-to/liveproxy</source>
+    <website>https://github.com/back-to/liveproxy</website>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>
+0.1.1
+- If --url is used, it will always be used as an URL.
+0.1.0
+- New commands --file and --format got added, they can create valid URLs from a file for the new base64 URL style.
+- The LiveProxy URL build was simplified, a Streamlink command like can be used after it got base64 encoded, more details can be found on the website.
+0.0.4
+- Improve Streamlink default Plugins load speed
+- Custom plugins with `from streamlink.plugin.api import http` are not allowed,
+  use `self.session`
+0.0.3
+- Allow FFmpeg and RTMP streams, might not work on every platform.
+0.0.1
+- LiveProxy Test Version
+    </news>
+  </extension>
+</addon>
+	
+<addon id="script.module.websocket" name="websocket library" version="0.53.0" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>websocket library repacked for Kodi</summary>
+    <source>https://github.com/websocket-client/websocket-client</source>
+    <website>https://github.com/back-to/repo</website>
+    <platform>all</platform>
+    <license>LGPL</license>
+    <news>
+    0.53.0
+    - on_open() missing 1 required positional argument: 'ws' (#471)
+    0.52.0
+    - fixed callback argument in _app.py (#468)
+    - Fixing none compare bug in run_forever (#472)
+    - Fix NoneType bug introduced by #386 fix (#476)
+    0.51.0
+    - revert "WebSocketApp class to make it inheritable (#442)" because of breaking the compatibily
+    0.50.0
+    - fixed pong before ping (#461)
+    - pass proper arguments to method callbacks (#462)
+    0.49.0
+    - WebSocketApp class to make it inheritable (#442)
+    - Add option to disable sending the Origin header (#459)
+    - Websocket.close() meaning of "close status: XXXXX" (#414)
+    - Enable multithreading protection with ping_interval (#448)
+    - reset WebsocketApp.sock (#450)
+    - websocket.enableTrace not working (#455)
+    - AttributeError: 'module' object has no attribute 'NullHandler' (#443)
+    - WebSocketBadStatusException "not enough arguments for format string" (#454)
+    - handshake should deal with None in headers (#432)
+    0.48.0
+    - Add NullHandler to logger to fix python 2 issue. (#400)
+    - Fix the issue that websocket status message may not present (#403)
+    - Socket error not raised in nested try except in python2 (#408)
+    - Load system default certificates if none are given (#415)
+    - Fix waiting forever on ping/pong timeout (#411)
+    - socks5 via pysocks support (#417)
+    - v0.47.0 breaks ability to stop stream with `run_forever` (#410)
+    - _http.py: fix windows proxy error due to socktype (#427)
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink-plugins" name="Streamlink plugins" version="0.0.0" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <!-- <extension point="xbmc.python.module" library="lib"/> -->
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Streamlink plugins</summary>
+    <description>custom streamlink plugins that can be used for service.liveproxy</description>
+    <license></license>
+    <source>https://github.com/back-to/script.module.streamlink-plugins</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink" name="Streamlink Library" version="1.0.0" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests" version="2.18.4"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.singledispatch" version="3.4.0.3"/>
+    <import addon="script.module.six" version="1.9.0"/>
+    <import addon="script.module.iso3166" version="0.8"/>
+    <import addon="script.module.iso639" version="0.4.5"/>
+    <import addon="script.module.shutil_which" version="3.5.1"/>
+    <import addon="script.module.websocket" version="0.47.0"/>
+    <import addon="script.module.isodate" version="0.6.0"/>
+    <import addon="script.module.pysocks" version="1.6.8" optional="true"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Library</summary>
+    <description>Streamlink repacked for Kodi</description>
+    <language></language>
+    <platform>all</platform>
+    <license>BSD 2-Clause Simplified License</license>
+    <website>https://streamlink.github.io</website>
+    <source>https://github.com/back-to/repo</source>
+    <news>
+    1.0.0
+    - Streamlink 1.0.0
+    0.14.2.138
+    - Streamlink 0.14.2+138.gb21df07
+    0.14.2.86
+    - Streamlink 0.14.2+86.g2c9cfe84
+    0.14.2.42
+    - Streamlink 0.14.2+42.gb3c7648
+    0.14.2.33
+    - Streamlink 0.14.2+33.g33f677b
+    0.14.2.18
+    - Streamlink 0.14.2.17 and updated Zattoo version
+    0.14.0
+    - Streamlink 0.14.0
+    0.13.0.48
+    - Streamlink 0.13.0+48.g512b5f0
+    0.13.0.18
+    - Streamlink 0.13.0+18.g3136f96
+    0.13.0
+    - sync https://pypi.org/project/streamlink/0.13.0/
+    - Removed custom commands, they are not handled in a custom plugin
+    0.12.1.2
+    - Streamlink version aee97e555971a8995e59f37efb092b694214b5d7
+      with experimental custom commands
+      --hls-session-reload-time
+      --hls-session-reload-segment
+    0.12.1.1
+    - Streamlink version 1307bc19e5c54d7bd8f6bba0d1c84a736a72c7ba
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.shutil_which" name="shutil_which library" version="3.5.1" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>shutil_which library</summary>
+    <license>PSF</license>
+    <source>https://pypi.python.org/pypi/backports.shutil_which</source>
+    <website>https://github.com/back-to/script.module.shutil_which</website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.isodate" name="ISO8601 Library" version="0.6.0" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>ISO8601 Library</summary>
+    <description>ISO 8601 date/time parser repacked for Kodi</description>
+    <platform>all</platform>
+    <license>BSD</license>
+    <source>https://github.com/gweis/isodate</source>
+    <website>https://github.com/back-to/script.module.isodate</website>
+    <news></news>
+  </extension>
+</addon>
+
+<addon id="script.module.iso3166" name="ISO 3166 Library" version="0.9" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>ISO 3166 Library</summary>
+    <description>ISO 3166 repacked for Kodi</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/deactivated/python-iso3166</source>
+    <website>https://github.com/back-to/script.module.iso3166</website>
+    <news>
+    0.9
+    - New entry for Kosovo (XK / XKX)
+    - Swaziland changed to Eswatini (effective 2018-07-16)
+    - "United States" -> "United States of America"
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.module.iso639" name="ISO639 Library" version="0.4.5.1" provider-name="back-to">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>ISO639 Library</summary>
+    <description>ISO639 repacked for Kodi</description>
+    <platform>all</platform>
+    <license>GNU AGPL</license>
+    <source>https://github.com/noumar/iso639</source>
+    <website>https://github.com/back-to/script.module.iso639</website>
+    <news>
+    0.4.5.1
+    - Fixed paths for Android devices.
+    </news>
+  </extension>
+</addon>		
 	
 </addons>
