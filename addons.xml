@@ -21,21 +21,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="plugin.video.Khmertvhd" version="1.0.7" name="KhmerTV HD" provider-name="Dodge">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="ADDON.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Khmer TV</summary>
-    <description>Watch Video in Khmer</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 	
 <addon id="plugin.video.karaoke" name="Khmer Karaoke" version="1.0.0" provider-name="Goupon">
   <requires>
@@ -52,44 +37,6 @@
     <platform>all</platform>
   </extension>
 </addon>	
-	
-<addon
-  id="plugin.video.thaitv"
-  version="0.0.1"
-  name="ThaiTV"
-  provider-name="Dodge">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="ADDON.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thai TV</summary>
-    <description>Watch Video in Thai</description>
-    <platform>all</platform>
-  </extension>
-</addon>	
-	
-<addon
-  id="plugin.video.laostv"
-  version="0.0.1"
-  name="LaosTV"
-  provider-name="Dodge">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="ADDON.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Laos TV</summary>
-    <description>Watch Video in Laos</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 	
 <addon id="plugin.video.khmerdl" version="1.0.0" name="KhmerDL" provider-name="Dodge">
   <requires>
@@ -124,24 +71,30 @@
 	</extension>
 </addon>
 	
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.27.3" provider-name="jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-	</extension>
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.0" provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" version="0.0.1"/>
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 	
 <addon id="service.liveproxy" name="LiveProxy" version="0.1.1" provider-name="back-to">
