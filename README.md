@@ -1,5 +1,3 @@
-<b>Repo Addon:</b> <br>
-https://dodge.000webhostapp.com/zips/<br><br>
 Put <b>playercorefactory.xml</b> in <b>userdata</b> folder for other video to work.
 <br><br>
 For Khmer fonts: create fonts folder in %appdata% kodi\media\fonts and place Arial.ttf in the folder.
