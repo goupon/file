@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.KhmerDubbed" version="1.0.1" name="KhmerDubbed" provider-name="Dodgex, Goupon">
+<addon id="plugin.video.KhmerDubbed" version="1.0.2" name="KhmerDubbed" provider-name="Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.simplejson" />
@@ -17,6 +17,34 @@
     <summary>Collections of Chinese series dubbed in Khmer from various site</summary>
     <description>Use at your own risk</description>
     <assets>
+      <icon>icon.png</icon>
+	  <fanart>fanart.jpg</fanart>
+    </assets>
+    <platform>all</platform>
+  </extension>
+</addon>
+	
+<addon
+  id="plugin.video.Khmertvhd19"
+  version="0.1.3"
+  name="KhmerTV HD"
+  provider-name="Dodge">
+ <requires>
+		<import addon="script.module.simplejson" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.t0mm0.common" version="3.0.0"/>
+		<import addon="script.module.six" />
+		<import addon="script.module.beautifulsoup4"    version="4.5.3"/>
+		<import addon="script.module.resolveurl" version="5.0.00"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="addon.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Khmertvhd</summary>
+    <description>Watch khmer channel</description>
+	<assets>
       <icon>icon.png</icon>
 	  <fanart>fanart.jpg</fanart>
     </assets>
@@ -353,6 +381,18 @@
     </news>
   </extension>
 </addon>
+	
+<addon id="script.module.t0mm0.common" name="t0mm0's common stuff" version="3.0.1" provider-name="t0mm0">
+  <requires>
+	<import addon="script.module.six" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>	
 
 <addon id="script.module.iso639" name="ISO639 Library" version="0.4.5.1" provider-name="back-to">
   <requires>
