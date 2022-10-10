@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.KhmerDubbed" version="1.0.3" name="KhmerDubbed" provider-name="Dodgex, Goupon">
+<addon id="plugin.video.KhmerDubbed" version="1.0.8" name="KhmerDubbed" provider-name="Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.simplejson" />
         <import addon="script.module.beautifulsoup4" />	
+        <import addon="script.module.t0mm0.common" version="3.0.0"/>
         <import addon="script.module.resolveurl" version="5.1.74"/>
         <import addon="plugin.video.youtube" version="5.4.5"/>	
         <import addon="script.module.requests" version="2.22.0"/>		
@@ -22,107 +23,7 @@
     </assets>
     <platform>all</platform>
   </extension>
-</addon>
-	
-<addon
-  id="plugin.video.Khmertvhd19"
-  version="0.1.3"
-  name="KhmerTV HD"
-  provider-name="Dodge">
- <requires>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.t0mm0.common" version="3.0.0"/>
-		<import addon="script.module.six" />
-		<import addon="script.module.beautifulsoup4"    version="4.5.3"/>
-		<import addon="script.module.resolveurl" version="5.0.00"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="addon.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Khmertvhd</summary>
-    <description>Watch khmer channel</description>
-	<assets>
-      <icon>icon.png</icon>
-	  <fanart>fanart.jpg</fanart>
-    </assets>
-    <platform>all</platform>
-  </extension>
-</addon>	
-	
-<addon id="plugin.video.MegaKhmerDubbed" version="2.0.8" name="MegaKhmerDubbed" provider-name="Dknlght, Price, Dodgex, Goupon">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.beautifulsoup" version="3.0.8"/>
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.t0mm0.common" version="1.1.0"/>
-        <import addon="plugin.video.youtube"/>
-        <import addon="plugin.video.khmerdl" version="0.0.1"/>	
-        <import addon="service.liveproxy" version="0.1.1"/>	
-		
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="ADDON.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Collections of Khmer Dubbed from various site</summary>
-    <description>Use at your own risk</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-	
-<addon id="plugin.video.Khmertvhd" version="1.1.1" name="KhmerTV HD" provider-name="Dodgex">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="ADDON.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Khmer TV</summary>
-    <description>Watch Video in Khmer</description>
-    <platform>all</platform>
-  </extension>
-</addon>	
-	
-<addon id="plugin.video.karaoke" name="Khmer Karaoke" version="1.0.0" provider-name="Goupon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Khmer karaoke from youtube</summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>	
-	
-<addon id="plugin.video.khmerdl" version="1.0.0" name="KhmerDL" provider-name="Dodge">
-  <requires>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.youtube.dl" version="14.810.0"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Download khmer drama</summary>
-    <description>Download khmer drama</description>
-    <platform>all</platform>
-  </extension>
-</addon>	
+</addon>		
 	
 	
 <addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.03" provider-name="goupon">
@@ -166,6 +67,7 @@
         </assets>
     </extension>
 </addon>
+	
 	
 <addon id="service.liveproxy" name="LiveProxy" version="0.1.1" provider-name="back-to">
   <requires>
