@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.KhmerDubbed" version="1.0.8" name="KhmerDubbed" provider-name="Dodgex, Goupon">
+<addon id="plugin.video.KhmerDubbed" version="1.0.9" name="KhmerDubbed" provider-name="Dodgex, Goupon">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.simplejson" />
@@ -26,16 +26,22 @@
 </addon>		
 	
 	
-<addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.03" provider-name="goupon">
+<addon id="repository.khmerdubbed" name="Khmer Dubbed Repo" version="2.04" provider-name="goupon">
 	<extension point="xbmc.addon.repository" name="Khmer Dubbed Repo">
+	  <dir>	
 		<info compressed="false">http://raw.githubusercontent.com/goupon/file/master/addons.xml</info>
 		<checksum>http://raw.githubusercontent.com/goupon/file/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.githubusercontent.com/goupon/file/master/</datadir>
+	  </dir>		
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>The one and only Khmer Dubbed addons by Dodgex and Goupon.</summary>
 		<description>https://forum.kodi.tv/showthread.php?tid=130566</description>
 		<platform>all</platform>
+		<assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		</assets>		
 	</extension>
 </addon>
 	
