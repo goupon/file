@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.KDubbed" version="1.4.2" name="Khmer Dubbed" provider-name="Dodgex, Goupon">
+<addon id="plugin.video.KDubbed" version="1.4.3" name="Khmer Dubbed" provider-name="Dodgex, Goupon">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.simplejson"/>
     <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.t0mm0.common" version="3.0.0"/>
     <import addon="script.module.resolveurl" version="5.1.74"/>
     <import addon="plugin.video.youtube" version="5.4.5"/>
     <import addon="script.module.requests" version="2.22.0"/>
