@@ -6,7 +6,7 @@ Special thanks to all the uploaders and admins from various sites.  Without them
 Please go to their site(s) and support them.
 <br><br>
 Add source in kodi's Manager<br>
-<b>Installation:<b>
+<b>Installation:</b>
 1. Go to the Kodi file manager
 2. Click on "Add source"
 3. The path for the source is https://goupon.github.io/file (Give it a name [SourceName]).
