@@ -58,7 +58,38 @@
 		</assets>		
 	</extension>
 </addon>
+
+<addon id="inputstream.adaptive" version="21.5.15.3" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <requires>
+    <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+    <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+    <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.0"/>
+    <import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.8"/>
+    <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+    <import addon="kodi.binary.instance.inputstream" minversion="3.3.0" version="3.3.0"/>
+    <import addon="kodi.binary.instance.videocodec" minversion="2.1.0" version="2.1.0"/>
+  </requires>
+
+  <extension point="kodi.inputstream" name="adaptive"
+             library_linux="inputstream.adaptive.so.21.5.15"/>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <platform>arm</platform>
+    <platform>aarch64</platform>
+
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/inputstream.adaptive</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+
+    <summary lang="en_GB">InputStream client for adaptive streams</summary>
+    <description lang="en_GB">
+      InputStream client for adaptive streams. Supports MPEG-DASH, HLS,
+      and Smooth Streaming. Also supports DRM systems like Widevine and PlayReady.
+    </description>
+  </extension>
+</addon>
 	
 </addons>
-
-
