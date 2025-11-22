@@ -1,1 +1,0 @@
-These are for RPi 32 and 64 bit
