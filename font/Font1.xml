@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Foundation -->
+<fonts>
+<fontset id="Default" unicode="true">
+
+        <defaultfont>NotoSansKhmer-Regular.ttf</defaultfont>
+        <defaultbold>NotoSansKhmer-Regular.ttf</defaultbold>
+
+        <!-- Hybrid English + Khmer using NotoSansKhmer -->
+
+        <font>
+            <name>font_medium</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+
+        <font>
+            <name>font_medium_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+
+        <font>
+            <name>font_small</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <font>
+            <name>font_small_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <font>
+            <name>font_tiny</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+
+        <!-- Titles -->
+
+        <font>
+            <name>font_title_large</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>64</size>
+        </font>
+
+        <font>
+            <name>font_title_medium</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>52</size>
+        </font>
+
+        <font>
+            <name>font_title</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>48</size>
+        </font>
+
+        <font>
+            <name>font_title_small</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>40</size>
+        </font>
+		
+        <font>
+            <name>font_title_mini</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <!-- REQUIRED for HOME MENU -->
+        <font>
+            <name>font13</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>		
+
+        <!-- Home / Widget Fonts -->
+
+        <font>
+            <name>font_widget</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>32</size>
+        </font>
+
+        <font>
+            <name>font_widget_small</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>28</size>
+        </font>
+
+        <font>
+            <name>font_widget_sublabel</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>24</size>
+        </font>
+
+        <font>
+            <name>font_home</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>42</size>
+        </font>
+
+        <font>
+            <name>font_home_label</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>32</size>
+        </font>
+
+        <font>
+            <name>font_home_sublabel</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+
+        <font>
+            <name>font_category</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>34</size>
+        </font>
+
+        <font>
+            <name>heading</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>48</size>
+        </font>
+
+        <font>
+            <name>subheading</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+
+        <font>
+            <name>label</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <font>
+            <name>label_alt</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>28</size>
+        </font>
+
+        <!-- Main Menu Fonts -->
+
+        <font>
+            <name>font_mainmenu</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>42</size>
+        </font>
+
+        <font>
+            <name>font_mainmenu_focus</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>48</size>
+        </font>
+
+        <font>
+            <name>font_mainmenu_sub</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>34</size>
+        </font>
+
+    </fontset>
+
+    <fontset id="Default_Base" unicode="true">
+
+        <include condition="Skin.HasSetting(FauneFonts)">Defaults_FauneFonts</include>
+        <include condition="!Skin.HasSetting(FauneFonts)">Defaults_RobotoFonts</include>
+
+        <!-- Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_medium_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_small</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_small_mono</name>
+            <filename>RobotoMono-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.8</aspect>
+        </font>
+        <font>
+            <name>font_small_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_tiny</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_tiny_23</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>23</size>
+        </font>
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_button</name>
+            <style>uppercase</style>
+            <filename>RobotoCondensed-Regular-Caps.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_statusbar</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_fps</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_osd_lang</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>10</size>
+        </font>
+        <font>
+            <name>font_statusbar_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_info_buttons</name>
+            <filename>RobotoCondensed-Bold-Caps.ttf</filename>
+            <size>20</size>
+            <style>uppercase</style>
+        </font>
+        <font>
+            <name>font_unwatched</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_mini</name>
+            <style>uppercase</style>
+            <filename>RobotoCondensed-Regular-Caps.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Music visualisation scrolling text -->
+        <font>
+            <name>font_musicvis_biggest</name>
+            <filename>RobotoCondensed-Light.ttf</filename>
+            <size>230</size>
+        </font>
+        <font>
+            <name>font_musicvis_bigger</name>
+            <filename>RobotoCondensed-Light.ttf</filename>
+            <size>130</size>
+        </font>
+        <font>
+            <name>font_musicvis_big</name>
+            <filename>RobotoCondensed-Light.ttf</filename>
+            <size>80</size>
+        </font>
+
+        <!-- Music visualisation info -->
+        <font>
+            <name>font_lyrics_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>70</size>
+        </font>
+
+        <font>
+            <name>font_splash</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>80</size>
+            <style>bold</style>
+        </font>
+        <!-- Big weather temp -->
+        <font>
+            <name>font_weather_currenttemp</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>150</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_weather_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+
+        <!-- Plot info overlay -->
+        <font>
+            <name>font_overlay_title</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>100</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+
+        <!-- Showcase title font -->
+        <font>
+            <name>font_title_large</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>64</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_medium</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>52</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>48</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_small</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_mini</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar_small</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_submenu</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_submenu_small</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_notification</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+        <!-- Small Byline -->
+        <font>
+            <name>font_byline</name>
+            <style>uppercase</style>
+            <filename>RobotoCondensed-Spaced-Caps.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_hintlabel</name>
+            <style>uppercase bold</style>
+            <filename>RobotoCondensed-Spaced.ttf</filename>
+            <size>18</size>
+        </font>
+
+        <!-- Required for system -->
+        <font>
+            <name>font13</name>
+            <filename>RobotoCondensed-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>Clock</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>130</size>
+        </font>
+
+        <font>
+            <name>font_infotag_bold</name>
+            <filename>RobotoCondensed-Bold.ttf</filename>
+            <size>22</size>
+            <style>uppercase</style>
+        </font>
+
+        <include>VideoLyrics_Fonts</include>
+
+    </fontset>
+
+    <fontset id="Roboto Regular" unicode="true">
+
+        <include condition="Skin.HasSetting(FauneFonts)">Defaults_FauneFonts</include>
+        <include condition="!Skin.HasSetting(FauneFonts)">Defaults_RobotoRegularFonts</include>
+
+        <!-- Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_medium_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_small_mono</name>
+            <filename>RobotoMono-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.8</aspect>
+        </font>
+        <font>
+            <name>font_small_bold</name>
+            <filename>Roboto-Medium.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_tiny</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_tiny_23</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>23</size>
+        </font>
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_button</name>
+            <style>uppercase</style>
+            <filename>Roboto-Regular-Caps.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_statusbar</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_fps</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_osd_lang</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>10</size>
+        </font>
+        <font>
+            <name>font_statusbar_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_info_buttons</name>
+            <filename>Roboto-Bold-Caps.ttf</filename>
+            <size>20</size>
+            <style>uppercase</style>
+        </font>
+        <font>
+            <name>font_unwatched</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_mini</name>
+            <style>uppercase</style>
+            <filename>Roboto-Regular-Caps.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Music visualisation scrolling text -->
+        <font>
+            <name>font_musicvis_biggest</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>230</size>
+        </font>
+        <font>
+            <name>font_musicvis_bigger</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>130</size>
+        </font>
+        <font>
+            <name>font_musicvis_big</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>80</size>
+        </font>
+
+        <!-- Music visualisation info -->
+        <font>
+            <name>font_lyrics_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>70</size>
+        </font>
+
+        <font>
+            <name>font_splash</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>80</size>
+            <style>bold</style>
+        </font>
+        <!-- Big weather temp -->
+        <font>
+            <name>font_weather_currenttemp</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>150</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_weather_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+
+        <!-- Plot info overlay -->
+        <font>
+            <name>font_overlay_title</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>100</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+
+        <!-- Showcase title font -->
+        <font>
+            <name>font_title_large</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>64</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_medium</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>52</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>48</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_small</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_mini</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_submenu</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_submenu_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_notification</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+        <!-- Small Byline -->
+        <font>
+            <name>font_byline</name>
+            <style>uppercase</style>
+            <filename>Roboto-Spaced-Caps.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_hintlabel</name>
+            <style>uppercase bold</style>
+            <filename>Roboto-Spaced.ttf</filename>
+            <size>18</size>
+        </font>
+
+        <!-- Required for system -->
+        <font>
+            <name>font13</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>Clock</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>130</size>
+        </font>
+
+        <include>VideoLyrics_Fonts</include>
+
+    </fontset>
+
+    <fontset id="Roboto Regular Larger" unicode="true">
+
+        <include condition="Skin.HasSetting(FauneFonts)">Defaults_FauneFonts</include>
+        <include condition="!Skin.HasSetting(FauneFonts)">Defaults_RobotoRegularLargerFonts</include>
+
+        <!-- Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_medium_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>33</size>
+        </font>
+        <font>
+            <name>font_small_mono</name>
+            <filename>RobotoMono-Bold.ttf</filename>
+            <size>33</size>
+            <aspect>0.8</aspect>
+        </font>
+        <font>
+            <name>font_small_bold</name>
+            <filename>Roboto-Medium.ttf</filename>
+            <size>33</size>
+        </font>
+        <font>
+            <name>font_tiny</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>29</size>
+        </font>
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>29</size>
+        </font>
+        <font>
+            <name>font_button</name>
+            <style>uppercase</style>
+            <filename>Roboto-Regular-Caps.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_statusbar</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_fps</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_osd_lang</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>10</size>
+        </font>
+        <font>
+            <name>font_statusbar_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_info_buttons</name>
+            <filename>Roboto-Bold-Caps.ttf</filename>
+            <size>22</size>
+            <style>uppercase</style>
+        </font>
+        <font>
+            <name>font_unwatched</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_mini</name>
+            <style>uppercase</style>
+            <filename>Roboto-Regular-Caps.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Music visualisation scrolling text -->
+        <font>
+            <name>font_musicvis_biggest</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>230</size>
+        </font>
+        <font>
+            <name>font_musicvis_bigger</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>130</size>
+        </font>
+        <font>
+            <name>font_musicvis_big</name>
+            <filename>Roboto-Light.ttf</filename>
+            <size>80</size>
+        </font>
+
+        <!-- Music visualisation info -->
+        <font>
+            <name>font_lyrics_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>70</size>
+        </font>
+
+        <font>
+            <name>font_splash</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>80</size>
+            <style>bold</style>
+        </font>
+        <!-- Big weather temp -->
+        <font>
+            <name>font_weather_currenttemp</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>150</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_weather_bold</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+
+        <!-- Plot info overlay -->
+        <font>
+            <name>font_overlay_title</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>100</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+
+        <!-- Showcase title font -->
+        <font>
+            <name>font_title_large</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>64</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_medium</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>52</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>48</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_small</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_mini</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>33</size>
+        </font>
+        <font>
+            <name>font_submenu</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>33</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_submenu_small</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>29</size>
+        </font>
+        <font>
+            <name>font_notification</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>33</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+        <!-- Small Byline -->
+        <font>
+            <name>font_byline</name>
+            <style>uppercase</style>
+            <filename>Roboto-Spaced-Caps.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_hintlabel</name>
+            <style>uppercase bold</style>
+            <filename>Roboto-Spaced.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Required for system -->
+        <font>
+            <name>font13</name>
+            <filename>Roboto-Regular.ttf</filename>
+            <size>33</size>
+        </font>
+        <font>
+            <name>Clock</name>
+            <filename>Roboto-Bold.ttf</filename>
+            <size>130</size>
+        </font>
+
+        <include>VideoLyrics_Fonts</include>
+
+    </fontset>
+
+    <!-- Arial -->
+
+    <fontset id="Arial" unicode="true">
+
+        <include condition="Skin.HasSetting(FauneFonts)">Defaults_FauneFonts</include>
+        <include condition="!Skin.HasSetting(FauneFonts)">Defaults_ArialFonts</include>
+
+        <!-- Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>arial.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_medium_bold</name>
+            <filename>arial.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_small</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_small_mono</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+            <aspect>0.8</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_small_bold</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_tiny</name>
+            <filename>arial.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>arial.ttf</filename>
+            <size>26</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_button</name>
+            <style>uppercase</style>
+            <filename>arial.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_statusbar</name>
+            <filename>arial.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_fps</name>
+            <filename>arial.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_osd_lang</name>
+            <filename>arial.ttf</filename>
+            <size>10</size>
+        </font>
+        <font>
+            <name>font_statusbar_bold</name>
+            <filename>arial.ttf</filename>
+            <size>22</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_info_buttons</name>
+            <filename>arial.ttf</filename>
+            <size>20</size>
+            <style>uppercase bold</style>
+        </font>
+        <font>
+            <name>font_unwatched</name>
+            <filename>arial.ttf</filename>
+            <size>16</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_mini</name>
+            <style>uppercase</style>
+            <filename>arial.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Music visualisation scrolling text -->
+        <font>
+            <name>font_musicvis_biggest</name>
+            <filename>arial.ttf</filename>
+            <size>230</size>
+        </font>
+        <font>
+            <name>font_musicvis_bigger</name>
+            <filename>arial.ttf</filename>
+            <size>130</size>
+        </font>
+        <font>
+            <name>font_musicvis_big</name>
+            <filename>arial.ttf</filename>
+            <size>80</size>
+        </font>
+
+        <!-- Music visualisation info -->
+        <font>
+            <name>font_lyrics_bold</name>
+            <filename>arial.ttf</filename>
+            <size>70</size>
+            <style>bold</style>
+        </font>
+
+        <font>
+            <name>font_splash</name>
+            <filename>arial.ttf</filename>
+            <size>80</size>
+            <style>bold</style>
+        </font>
+        <!-- Big weather temp -->
+        <font>
+            <name>font_weather_currenttemp</name>
+            <filename>arial.ttf</filename>
+            <size>150</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_weather_bold</name>
+            <filename>arial.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+
+        <!-- Plot info overlay -->
+        <font>
+            <name>font_overlay_title</name>
+            <filename>arial.ttf</filename>
+            <size>100</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+
+        <!-- Showcase title font -->
+        <font>
+            <name>font_title_large</name>
+            <filename>arial.ttf</filename>
+            <size>64</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_medium</name>
+            <filename>arial.ttf</filename>
+            <size>52</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title</name>
+            <filename>arial.ttf</filename>
+            <size>48</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_small</name>
+            <filename>arial.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_mini</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar</name>
+            <filename>arial.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar_small</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_submenu</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_submenu_small</name>
+            <filename>arial.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_notification</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+        <!-- Small Byline -->
+        <font>
+            <name>font_byline</name>
+            <style>uppercase</style>
+            <filename>arial.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_hintlabel</name>
+            <style>uppercase bold</style>
+            <filename>arial.ttf</filename>
+            <size>18</size>
+        </font>
+
+        <!-- Required for system -->
+        <font>
+            <name>font13</name>
+            <filename>arial.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>Clock</name>
+            <filename>arial.ttf</filename>
+            <size>130</size>
+            <style>bold</style>
+        </font>
+
+        <include>VideoLyrics_Fonts</include>
+
+    </fontset>
+
+    <!-- AmazonEmberDisplay_Rg -->
+
+    <fontset id="Amazon Ember" unicode="true">
+
+        <include condition="Skin.HasSetting(FauneFonts)">Defaults_FauneFonts</include>
+        <include condition="!Skin.HasSetting(FauneFonts)">Defaults_AmazonEmberFonts</include>
+
+        <!-- Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>38</size>
+        </font>
+        <font>
+            <name>font_medium_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_small</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_small_mono</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+            <aspect>0.8</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_small_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_tiny</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>26</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_button</name>
+            <style>uppercase</style>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>24</size>
+        </font>
+        <font>
+            <name>font_statusbar</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_fps</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>16</size>
+        </font>
+        <font>
+            <name>font_osd_lang</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>10</size>
+        </font>
+        <font>
+            <name>font_statusbar_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>22</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_info_buttons</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>20</size>
+            <style>uppercase bold</style>
+        </font>
+        <font>
+            <name>font_unwatched</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>16</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_mini</name>
+            <style>uppercase</style>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>20</size>
+        </font>
+
+        <!-- Music visualisation scrolling text -->
+        <font>
+            <name>font_musicvis_biggest</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>230</size>
+        </font>
+        <font>
+            <name>font_musicvis_bigger</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>130</size>
+        </font>
+        <font>
+            <name>font_musicvis_big</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>80</size>
+        </font>
+
+        <!-- Music visualisation info -->
+        <font>
+            <name>font_lyrics_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>70</size>
+            <style>bold</style>
+        </font>
+
+        <font>
+            <name>font_splash</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>80</size>
+            <style>bold</style>
+        </font>
+        <!-- Big weather temp -->
+        <font>
+            <name>font_weather_currenttemp</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>150</size>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_weather_bold</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>38</size>
+            <style>bold</style>
+        </font>
+
+        <!-- Plot info overlay -->
+        <font>
+            <name>font_overlay_title</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>100</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+
+        <!-- Showcase title font -->
+        <font>
+            <name>font_title_large</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>64</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_medium</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>52</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>48</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_small</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_title_mini</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>40</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_topbar_small</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>font_submenu</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+        <font>
+            <name>font_submenu_small</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>26</size>
+        </font>
+        <font>
+            <name>font_notification</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+            <aspect>0.9</aspect>
+            <style>bold</style>
+        </font>
+
+        <!-- Small Byline -->
+        <font>
+            <name>font_byline</name>
+            <style>uppercase</style>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>22</size>
+        </font>
+        <font>
+            <name>font_hintlabel</name>
+            <style>uppercase bold</style>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>18</size>
+        </font>
+
+        <!-- Required for system -->
+        <font>
+            <name>font13</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>30</size>
+        </font>
+        <font>
+            <name>Clock</name>
+            <filename>AmazonEmberDisplay_Rg.ttf</filename>
+            <size>130</size>
+            <style>bold</style>
+        </font>
+
+        <include>VideoLyrics_Fonts</include>
+
+    </fontset>
+
+    <fontset id="Khmer" unicode="true">
+
+        <!-- Khmer Standard Fonts -->
+        <font>
+            <name>font_medium</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+
+        <font>
+            <name>font_medium_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>38</size>
+        </font>
+
+        <font>
+            <name>font_small</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <font>
+            <name>font_small_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+        <font>
+            <name>font_tiny</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+
+        <font>
+            <name>font_tiny_bold</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>26</size>
+        </font>
+
+        <!-- Titles -->
+        <font>
+            <name>font_title_large</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>64</size>
+        </font>
+
+        <font>
+            <name>font_title_medium</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>52</size>
+        </font>
+
+        <font>
+            <name>font_title</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>48</size>
+        </font>
+
+        <font>
+            <name>font_title_small</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>40</size>
+        </font>
+
+        <font>
+            <name>font_title_mini</name>
+            <filename>NotoSansKhmer-Regular.ttf</filename>
+            <size>30</size>
+        </font>
+
+    </fontset>
+
+    
+
+
+</fonts>
