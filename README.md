@@ -2,13 +2,6 @@ The one and only Khmer Dubbed Series for Kodi by Dodgex and Goupon.
 Support at https://forum.kodi.tv/showthread.php?tid=130566&pid=3245413#pid3245413<br>
 Special thanks to all the uploaders and admins from various sites.  Without them, there would be no Khmer dubbed for all of us.  Please go to their site(s) and support them.
 <br><br>
-<b>Installation:</b>
-1. Go to the Kodi file manager
-2. Click on "Add source"
-3. The path for the source is https://goupon.github.io/file (Give it a name [SourceName]).
-4. Go to "Add-ons"
-5. In Add-ons, select Install add-on from zip
-6. When asked for the location, select [SourceName], and install repository.khmerdubbed-2.1.zip
-7. Go back to Add-ons install, but this time, select "Install from repository"
-8. Select the [Repository Name]
-9. Go into the "Video add-ons" section in the repo, and select Khmer Dubbed
+I'm no longer maintance this repo
+
+My new repo: <b> https://khmerdrama.onrender.com/ </b>
